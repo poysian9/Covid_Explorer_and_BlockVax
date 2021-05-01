@@ -68,16 +68,16 @@ This Program will run in four parts:
  <p>
          
 #### First Web Page   
-![img](Images/first_page1.png)     
+![img](Images/first_page1.PNG)     
 
 #### Second Web Page
-![img](Images/second_page.png)
+![img](Images/second_page.PNG)
 
 #### Third Web Page
-![img](Images/third_page.png)
+![img](Images/third_page.PNG)
 
 #### Fourth Web Page
-![img](Images/fourth_page.png)
+![img](Images/fourth_page.PNG)
 
 </p>
 </details>
@@ -97,16 +97,17 @@ This Program will run in four parts:
 <details>
 <summary>Data Source</summary>
 <p>
- 1. https://github.com/owid/covid-19-data
- 2. https://ourworldindata.org/covid-vaccinations  
+1. https://github.com/owid/covid-19-data <br>
+2. https://ourworldindata.org/covid-vaccinations
 </p>
 </details>
 <details>
 <summary>References</summary>
-<p>
- 1. https://discuss.streamlit.io/
- 2. https://streamlit.io/gallery?type=apps&category=geography-society
+           <p>
+ 1. https://discuss.streamlit.io/ <br>
+ 2. https://streamlit.io/gallery?type=apps&category=geography-society<br>
  3. https://www.youtube.com/watch?v=k-d27B5hnqc
-</p>
+                     </p>
+
 </details>
 
