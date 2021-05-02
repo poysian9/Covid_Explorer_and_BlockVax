@@ -13,14 +13,9 @@ This Program will run in four parts:
 
 <details>
 <summary>Creating a Project</summary>
-<p>detail informaion about project and participant</p>
+<p>Detail informaion about project and Team Members</p>
            
-</details>
-<details>
-
-<summary>How we build it</summary>
-<p>
-
+           
 ### Team Members
 
 * Purvi Doshi
@@ -32,6 +27,12 @@ This Program will run in four parts:
 * Harrison Marcus Clark
 
 * Khushboo Bhatnagar
+           
+</details>
+<details>
+
+<summary>How we build it</summary>
+<p>
 
 ### Development Instruction
 
@@ -52,10 +53,25 @@ This Program will run in four parts:
 <details>
 <summary>Deploying the Project</summary>
 <p>
+
+### Steps on How to deploy project in Heroku - Free App
+
 1. Before deploy your app to Heroku, you need to initialize a local Git repository and commit your application code to it. The following example demonstrates initializing a Git repository for an app that lives in the finalapp directory:
-           $cd covid-explorer
-           $ git init
-           $ git add.
+                      $ cd covid-explorer
+                      $ git init 
+                      $ git add. 
+                      $ git commit 
+2. Create a Heroku Account [Here](https://signup.heroku.com/) In general, using Heroku is free but in order to get more features like application metrics or free SSL you'll have to pay.
+3. Now that you have an account you will have to [download Heroku's Command Line Interface](https://devcenter.heroku.com/articles/getting-started-with-python#set-up).
+4. Login to Heroku
+![img](Images/heroku_login.PNG)
+5. Finally, you can deploy your application to heroku by running heroku create to create an Heroku instance.
+         a. Type heroku create covid-explorer
+         b. Push the code using git repo commands
+           $ git add . 
+           $ git commit -m "Final code" 
+           $ git push heroku main 
+6. You can check if the application was deployed successfully using heroku ps:scale web=1. Finally, the application can be opened with heroku open. This will open the app using your default browser.
 </p>
  </details>
  <details>
