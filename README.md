@@ -158,8 +158,8 @@ The following example demonstrates initializing a Git repository for an app that
 <p>
  1. https://discuss.streamlit.io/ <br>
  2. https://streamlit.io/gallery?type=apps&category=geography-society<br>
- 3. https://www.youtube.com/watch?v=k-d27B5hnqc
- 4. https://github.com/E-Health/vac-chain/blob/develop/contracts/Encounter.sol
+ 3. https://www.youtube.com/watch?v=k-d27B5hnqc <br>
+ 4. https://github.com/E-Health/vac-chain/blob/develop/contracts/Encounter.sol <br>
  </p>
 
 </details>
