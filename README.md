@@ -132,11 +132,11 @@ The following example demonstrates initializing a Git repository for an app that
 <summary>Solidity Example-BlockVax</summary>
 <p>
             
- Image 1            | Image 2        | Image 3                         
+ Mapping Struct          | Register Patient Func      | JSON Token Schema                        
   -----------------------|----------------------------|-----------------------
   ![img](Images/image1.png)      | ![img](Images/image2.png) | ![img](Images/image3.png)
   
- Image 4            | Image 5        | Image 6                         
+ Register Provider Func          | Global Variables   | Modifiers                         
   -----------------------|----------------------------|-----------------------
   ![img](Images/image4.png)      | ![img](Images/image5.png) | ![img](Images/image6.png)
   
@@ -159,6 +159,7 @@ The following example demonstrates initializing a Git repository for an app that
  1. https://discuss.streamlit.io/ <br>
  2. https://streamlit.io/gallery?type=apps&category=geography-society<br>
  3. https://www.youtube.com/watch?v=k-d27B5hnqc
+ 4. https://github.com/E-Health/vac-chain/blob/develop/contracts/Encounter.sol
                      </p>
 
 </details>
