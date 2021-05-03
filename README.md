@@ -47,11 +47,12 @@ This will include:
 3. *Correlation Explorer* webpage was another way to represent corelation between few selected columns of the csv file.
 4. As per the commoan definition of Linear Regression which is a statistical method for modelling relationship between a dependent variable with a given set of independent variables. From owid-covid-data.csv file team used total_cases as depedent variable and compare with all 50 independent variables. In short, Simple Linear regression method used to show the prediction of total covid cases for selected country.
 5. TimeSeries Analysis is comparing data between two countries and displaying graphs for daily new cases and people fully vaccinated in both countries.
-6. BlockVax is a smart contract which interacts with the ethereum network to allow users to register a profile for themselves or others, generating a unique patient ID number and storing the profile data in a profile struct as part of a mapping. Their profile registration will require their address as well as a photo ID, which will be uploaded to [pinata](https://pinata.cloud/) and stored via an IPFS hash.
-7. Once a profile has been created, registered vaccine providers are able to update vaccine data of vaccinated patients by using the patient's address and ID number and photo URI as part of our token JSON scehma shown below.
-8. This function will then mint a non-fungible token using the patient's address and ID number and set the token URI, as well as update the patient's profile with the vaccine data.
-9. Modifier's were created to restrsict function access and to ensure only the right data can be inputted, since this contract interacts with a blockchain and hence immutable, we do not want to waste gas fees on data errors or accidentally input incorrect data.
-10. Finally, our last function allows the user to search for a patient ID and check if they've been vaccinated
+6. *App chatboat*(https://app.chatbot.com) to create our slack chat bot where we collected vaccine realited data from the australian government website and moulded it into a conversation between the bot and the user. we used buttons to link the diffrent age groups and linking it to there segregated block of data.
+7. BlockVax is a smart contract which interacts with the ethereum network to allow users to register a profile for themselves or others, generating a unique patient ID number and storing the profile data in a profile struct as part of a mapping. Their profile registration will require their address as well as a photo ID, which will be uploaded to [pinata](https://pinata.cloud/) and stored via an IPFS hash.
+8. Once a profile has been created, registered vaccine providers are able to update vaccine data of vaccinated patients by using the patient's address and ID number and photo URI as part of our token JSON scehma shown below.
+9. This function will then mint a non-fungible token using the patient's address and ID number and set the token URI, as well as update the patient's profile with the vaccine data.
+10. Modifier's were created to restrsict function access and to ensure only the right data can be inputted, since this contract interacts with a blockchain and hence immutable, we do not want to waste gas fees on data errors or accidentally input incorrect data.
+11. Finally, our last function allows the user to search for a patient ID and check if they've been vaccinated
            
 
 ### Development Instruction
@@ -159,7 +160,10 @@ The following example demonstrates initializing a Git repository for an app that
 <summary>Data Source</summary>
 <p>
 1. https://github.com/owid/covid-19-data <br>
-2. https://ourworldindata.org/covid-vaccinations
+2. https://ourworldindata.org/covid-vaccinations <br>
+3. https://www.coronavirus.vic.gov.au/book-your-vaccine-appointment#where-you-can-receive-a-covid-19-vaccine <br>
+4. https://www.health.gov.au/initiatives-and-programs/covid-19-vaccines/getting-vaccinated-for-covid-19/when-will-i-get-a-covid-19-vaccine 
+
 </p>
 </details>
 <details>
@@ -168,7 +172,9 @@ The following example demonstrates initializing a Git repository for an app that
  1. https://discuss.streamlit.io/ <br>
  2. https://streamlit.io/gallery?type=apps&category=geography-society<br>
  3. https://www.youtube.com/watch?v=k-d27B5hnqc <br>
- 4. https://github.com/E-Health/vac-chain/blob/develop/contracts/Encounter.sol <br>
+ 4. https://github.com/E-Health/vac-chain/blob/develop/contracts/Encounter.sol <br> 
+ 5. https://app.chatbot.com/dashboard/608903c2be6c8d0007f958a1 <br>
+
  </p>
 
 </details>
