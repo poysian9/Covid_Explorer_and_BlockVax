@@ -1,19 +1,19 @@
 # Project3-covid-explorer
-Exploring different ML algorithm and Solidity using COVID dataset
+Exploring different ML algorithms and Solidity using COVID dataset
 ## Background
-New startup has decided to run through covid explorer program in order to help one of the health institue to perform data analysis functions. Though there are huge number of freely available covid dashboard in the internet but company decided to create inhouse capability to develop own dashboard using different machine learning algorithm and solidity.  This program will help company to show current covid trend of selected country, using linear regression algorithm predict the covid cases for selected country. Not only that it also compares two different countries data and show the trend between two different countries. Company also introduced "BlockVax" as a smart contract which interacts with the ethereum network to allow users to register a profile for themselves or others, generating a unique patient ID number and storing the profile data in a profile struct as part of a mapping. Their profile registration will require their address as well as a photo ID, which will be uploaded to [pinata](https://pinata.cloud/) and stored via an IPFS hash.
+New startup has decided to run a COVID explorer program in order to help one of the health institues to perform data analysis functions. Though there are huge number of freely available covid dashboards in the internet the company decided to create an inhouse capability. Thereby developing their own dashboard using different machine learning algorithms and made use of solidity.  This program will help the company to show current covid trends of a selected country. Using the linear regression algorithm they can predict the covid cases for a selected country. Not only that it can also compare two different countries data and show the trend between them. The Company also introduced "BlockVax" as a smart contract which interacts with the ethereum network to allow users to register a profile for themselves or others, generating a unique patient ID number and storing the profile data in a profile struct as part of a mapping. Their profile registration will require their address as well as a photo ID, which will be uploaded to [pinata](https://pinata.cloud/) and stored via an IPFS hash.
 
-In order to launch this prgoram , company need to covid historical data which will be available and downloaded from the world health website.
+In order to launch this prgoram, company needed to access historical COVID data which will be available and downloaded from the World Health Organisation website.
 
 <details>
 <summary>Creating a Project</summary>
 <p>Detail informaion about project and Team Members</p>
 
 ### Details about Project 
-This Projec was divided into four parts:
-1. Data cleaning and data analysis Part
-2. Ceating Dashboard using Python code and machine algorithm to plot different graphs using streamlit
-3. Chatboat to communnnicate with the Public for covid related queries.
+This Project was divided into four parts:
+1. Data cleaning and data analysis
+2. Creating Dashboard using Python code and machine algorithm to plot different graphs using streamlit
+3. AWS to create a Chatbot to communnnicate with the Public for covid related queries.
 4. Solidity patient contract to verify whether patient has been vaccinated or not.
 This will include:
            * Restriction of provider function use to only providers registered in the contract
@@ -65,7 +65,7 @@ This will include:
 * Streamlit
 * Altair to display graph using streamlit
 * Solidity
-* Chatboat
+* Chatbot
 * Metamask
 * pinata
 
