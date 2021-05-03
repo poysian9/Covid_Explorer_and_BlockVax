@@ -143,6 +143,15 @@ The following example demonstrates initializing a Git repository for an app that
  
 </p>
 </details>
+<details>
+<summary>Chatboat Example- COVID Buddy</summary>
+<p>        
+          
+![cimg](Images/chatboat1.png)      
+![cimg](Images/chatboat2.png) 
+
+</p>
+</details>
 
 #### Data Source and Resource
 
